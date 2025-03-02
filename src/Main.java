@@ -10,7 +10,7 @@ public class Main {
 	
     public static boolean groupSum(int start, int[] nums, int target) {
         
-    	// Base case: if we've reached the end of the list
+    	// Base cases
     	if(target == 0) return true;
     	if(target < 0) return false;
         if(start >= nums.length) return false;
